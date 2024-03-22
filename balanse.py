@@ -52,8 +52,8 @@ class Wallet:
         print(f'{self.adress} # {self.account_balance} # {self.account_balance*3700} $')
         
 if __name__ == '__main__':
-    wal = Wallet('wal.txt')
     while True:
+        wal = Wallet('wal.txt')
         asyncio.run(wal.balanse())
         1
 
